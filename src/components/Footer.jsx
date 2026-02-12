@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* School Info */}
         <div>
-          <h2 className="text-xl font-bold text-white">
+          <h2 className="text-xl font-bold text-yellow-300">
             White Dove School Complex
           </h2>
           <p className="mt-4 text-sm">
@@ -18,7 +18,7 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold text-white">Quick Links</h3>
+          <h3 className="text-lg font-semibold text-yellow-300">Quick Links</h3>
           <ul className="mt-4 space-y-2 text-sm">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/admissions">Admissions</NavLink></li>
@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Contact Info */}
         <div>
-          <h3 className="text-lg font-semibold text-white">Contact Us</h3>
+          <h3 className="text-lg font-semibold text-yellow-300">Contact Us</h3>
           <p className="mt-4 text-sm">📍 Accra, Ghana</p>
           <p className="text-sm">📞 +233 24 000 0000</p>
           <p className="text-sm">✉ info@whitedove.edu.gh</p>
@@ -37,7 +37,7 @@ export default function Footer() {
 
         {/* Social Media */}
         <div>
-          <h3 className="text-lg font-semibold text-white">Follow Us</h3>
+          <h3 className="text-lg font-semibold text-yellow-300">Follow Us</h3>
           <div className="flex space-x-4 mt-4 text-lg">
             <FaFacebookF className="hover:text-yellow-400 cursor-pointer transition" />
             <FaInstagram className="hover:text-yellow-400 cursor-pointer transition" />
